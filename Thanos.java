@@ -15,7 +15,6 @@ public class Thanos {
 
         // TODO 1 : Retrieve and remove the oldest hero in one line
         Hero oldest = null;
-        heroes.pollLast();
         System.out.println("\nOldest hero:");
         System.out.println(oldest == null ? "" : oldest.getName());
 
